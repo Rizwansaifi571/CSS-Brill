@@ -1,0 +1,12 @@
+/* Chapter : Colors And Background
+Date : 01, May, 2024. */
+
+.red{
+    background-color: red;
+    color: white;
+}
+
+.blue{
+    background-color: blue;
+    color: aqua;
+}
