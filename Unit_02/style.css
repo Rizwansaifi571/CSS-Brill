@@ -1,8 +1,16 @@
 /* Chapter : Colors And Background
 Date : 01, May, 2024. */
 
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
 .red{
     background-color: red;
+    height: 255px;
     color: white;
 }
 
