@@ -1,0 +1,25 @@
+/* Chapter : Margin Collapse
+Date : 04, May, 2024. */
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.box1{
+    background-color: pink;
+    margin: 30px;
+    height: 2320px;
+    width: 233px;
+    border: 2px solid black;
+}
+
+.box2{
+    background-color: skyblue;
+    /* margin: 30px; */
+    height: 20px;
+    width: 100%;
+    padding: 6px;
+    border: 5px solid grey;
+    box-sizing: border-box;
+}
