@@ -1,0 +1,26 @@
+/* Chapter : Background properties.
+Date : 05, May, 2024. */
+
+/* body{
+    background-image: url(image.jpg);
+    background-repeat: repeat-x;
+    background-size: 522px 544px;
+    background-position: bottom center;
+} */
+
+.container{
+    width: 334px;
+    height: 1344px;   
+    color: red;
+    background-image: url(image.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top center;
+    background-attachment: scroll;
+}
+
+/* .container{
+    width: 334px;
+    height: 1344px;   
+    background: hotpink url(image.jpg) no-repeat right top; 
+} */
