@@ -22,3 +22,11 @@ Date : 05, May, 2024. */
     text-align: start;
     text-decoration: underline;
 }
+
+p1{
+    display: block;
+    background-color: orange;
+    /* text-transform: capitalize; */
+    text-transform: full-width;
+    line-height: 7;
+}
