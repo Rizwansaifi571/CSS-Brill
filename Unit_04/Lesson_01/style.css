@@ -1,3 +1,13 @@
 /* Chapter : Display Properties
 Date : 05, May, 2024. */
 
+.box1{
+    width: 194px;
+    height: 56px;
+    background-color: pink;
+    color: indigo;
+    display: inline-block;
+    /* visibility: hidden; */
+    /* padding: 25px; */
+    /* margin: 50px; */
+}
