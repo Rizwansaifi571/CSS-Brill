@@ -11,3 +11,14 @@ Date : 05, May, 2024. */
     /* padding: 25px; */
     /* margin: 50px; */
 }
+
+
+.box2{
+    height: 256px;
+    width: 294px;
+    background-color: skyblue;
+    color: indigo;
+    display: inline-block;
+    text-align: start;
+    text-decoration: underline;
+}
