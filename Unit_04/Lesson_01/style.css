@@ -39,3 +39,9 @@ p2{
     font-variant: small-caps;
     font-weight: 500;
 }
+
+p3{
+    display: block;
+    font-size: xx-large;
+    font-family: "Jersey 25 Charted";
+}
