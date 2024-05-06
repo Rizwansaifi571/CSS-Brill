@@ -57,3 +57,31 @@ html{
     height: 60vh;
     width: 60vw; */
 }
+
+.container{
+    background-color: pink;
+    padding: auto;
+    margin: auto;
+    height: 255px;
+    width: 155px;
+}
+
+.box1{
+    background-color: skyblue;
+    margin: auto;
+    height: 2555px;
+    width: 255px;
+    position: relative;
+    top: 44px;
+    
+}
+
+.box2{
+    background-color: lightgray;
+    margin: auto;
+    height: 175px;
+    width: 155px;
+    position: fixed;
+    top: 44px;
+}
+
