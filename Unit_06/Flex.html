@@ -21,6 +21,17 @@ Date : 08, May, 2024. -->
             align-items: center;
             align-content: center;           /* remmove the space between the boxes */
         }
+        .box1 {
+            height: 234px;
+            width: 345px;
+            background-color: skyblue;
+            border: 2px solid black;
+            order: 1;
+            align-self: flex-end;            /* only work when flex-wrap is set to nowrap */
+            flex-grow: 2;
+            flex-shrink: 5;
+        }
+
 
     </style>
 </head>
