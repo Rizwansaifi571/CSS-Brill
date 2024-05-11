@@ -12,24 +12,36 @@ Date : 11, May, 2024. -->
             display: grid;
             background-color: grey;
             height: 56vh;
-            grid-template-columns: auto auto;
+            grid-template-columns: auto auto auto auto;
             grid-row-gap: 9px;
             grid-column-gap: 9px;
             /* justify-content: normal; */
             /* align-content: center; */
         }
         .item{
-            background-color: skyblue;
+            background-color: pink;
             border: 2px solid black;
+            /* grid-column: 1 / 4; */
         }
-    </style>
+        
+        .item1{
+            background-color: pink;
+            border: 2px solid black;
+            grid-column: 1 / 3;
+        }
+            </style>
 </head>
 <body>
     <div class="container">
-        <div class="item">1</div>
+        <div class="item1">1</div>
         <div class="item">2</div>
         <div class="item">3</div>
         <div class="item">4</div>
+        <div class="item">5</div>
+        <div class="item">6</div>
+        <div class="item">7</div>
+        <div class="item">8</div>
+        <div class="item">9</div>
     </div>
     
 </body>
